@@ -1,2 +1,3 @@
-# study-llm_rl
+# LLM RL
 LLMの強化学習の勉強
+
