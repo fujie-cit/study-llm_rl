@@ -17,7 +17,7 @@ SYSTEM_PROMPT = "ユーザの発言を平易化し，さらに書き言葉から
 
 def load_model(adapter_dir: Path, *, load_in_4bit: bool = True):
     """Load base model + LoRA adapter for inference."""
-    tokenizer = AutoTokenizer.from_pretrained(adapter_dir, use_fast=True)
+    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, use_fast=True)
 
     model_kwargs = {
         "device_map": "auto",
