@@ -1,0 +1,11 @@
+accelerate
+bitsandbytes
+datasets
+openpyxl
+pandas
+peft
+torch
+transformers
+trl
+unsloth
+wikipedia
